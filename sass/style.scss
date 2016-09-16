@@ -1,0 +1,15 @@
+/**
+ * Fonts
+ */
+@import '//fonts.googleapis.com/css?family=Lato|Open+Sans';
+$font-lato: 'Lato', sans-serif;
+$font-open-sans: 'Open Sans', sans-serif;
+
+/**
+ * Colours
+ */
+$blue: #4296CA;
+
+html, body {
+  background: $blue;
+  }
