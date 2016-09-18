@@ -56,8 +56,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 /**
  * Configure routes
  */
-require('./routes/interface');
-require('./routes/api');
+require('./routes/interface')(app);
+require('./routes/api')(app);
 
 /**
  * Configure view engine
